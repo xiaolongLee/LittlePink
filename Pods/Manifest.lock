@@ -1,0 +1,34 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.5)
+  - SDWebImage (5.15.0):
+    - SDWebImage/Core (= 5.15.0)
+  - SDWebImage/Core (5.15.0)
+  - SVProgressHUD (2.2.5)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SDWebImage: 9bec4c5cdd9579e1f57104735ee0c37df274d593
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 9ae85ab819601d19830ea46f52294885d423863c
+
+COCOAPODS: 1.11.2
