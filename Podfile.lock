@@ -1,4 +1,5 @@
 PODS:
+  - CHTCollectionViewWaterfallLayout/Swift (0.9.10)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.5)
   - SDWebImage (5.15.0):
@@ -8,6 +9,7 @@ PODS:
   - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout/Swift
   - MBProgressHUD
   - MJRefresh
   - SDWebImage
@@ -16,6 +18,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - CHTCollectionViewWaterfallLayout
     - MBProgressHUD
     - MJRefresh
     - SDWebImage
@@ -23,12 +26,13 @@ SPEC REPOS:
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: b989a459788d7657ac010e03bc0f7eedca95a420
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   SDWebImage: 9bec4c5cdd9579e1f57104735ee0c37df274d593
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: 9ae85ab819601d19830ea46f52294885d423863c
+PODFILE CHECKSUM: 616820d88740fe260ee30a8e445b4a9ce364044a
 
 COCOAPODS: 1.11.2
