@@ -9,4 +9,5 @@ import UIKit
 
 class WaterFallCell: UICollectionViewCell {
     
+    @IBOutlet weak var imageV: UIImageView!
 }

@@ -11,7 +11,7 @@ import XLPagerTabStrip
 class HomeVC : ButtonBarPagerTabStripViewController {
     
     override func viewDidLoad() {
-         
+        
         // MARK: 设置上方的bar,按钮,条的UI
         
         //1.整体bar--在sb上设

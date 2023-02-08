@@ -88,17 +88,17 @@
 		6B5FE2DF298B570900EC7A3A /* LittlePink */ = {
 			isa = PBXGroup;
 			children = (
+				6B8CAFF82992683000C8B10B /* WaterFallVC.swift */,
+				6B8CAFFA2992689C00C8B10B /* WaterFallCell.swift */,
 				6B1990C82990A15F0089358E /* Home */,
 				6B5FE2E0298B570900EC7A3A /* AppDelegate.swift */,
 				6B5FE2E2298B570900EC7A3A /* SceneDelegate.swift */,
+				6B1990D12990D6F60089358E /* Constants.swift */,
 				6B5FE2E6298B570900EC7A3A /* Main.storyboard */,
 				6B5FE2EC298B570C00EC7A3A /* Assets.xcassets */,
 				6B5FE2EE298B570C00EC7A3A /* LaunchScreen.storyboard */,
 				6B5FE2F1298B570C00EC7A3A /* Info.plist */,
 				6B5FE2E9298B570900EC7A3A /* LittlePink.xcdatamodeld */,
-				6B1990D12990D6F60089358E /* Constants.swift */,
-				6B8CAFF82992683000C8B10B /* WaterFallVC.swift */,
-				6B8CAFFA2992689C00C8B10B /* WaterFallCell.swift */,
 			);
 			path = LittlePink;
 			sourceTree = "<group>";
