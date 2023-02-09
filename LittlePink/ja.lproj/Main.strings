@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "占位"; ObjectID = "4Tv-Ld-JC4"; */
+"4Tv-Ld-JC4.text" = "占位";
+
+/* Class = "UILabel"; text = "关注的人的笔记页面"; ObjectID = "6fZ-L0-BF6"; */
+"6fZ-L0-BF6.text" = "关注的人的笔记页面";
+
+/* Class = "UITabBarItem"; title = "发布"; ObjectID = "7dF-hZ-T3t"; */
+"7dF-hZ-T3t.title" = "发布";
+
+/* Class = "UILabel"; text = "占位"; ObjectID = "DlL-pt-Jqs"; */
+"DlL-pt-Jqs.text" = "占位";
+
+/* Class = "UITabBarItem"; title = "消息"; ObjectID = "GMb-gr-sXO"; */
+"GMb-gr-sXO.title" = "消息";
+
+/* Class = "UILabel"; text = "附近的人笔记页面"; ObjectID = "UCj-gV-scP"; */
+"UCj-gV-scP.text" = "附近的人笔记页面";
+
+/* Class = "UITabBarItem"; title = "商城"; ObjectID = "W0c-FA-BhF"; */
+"W0c-FA-BhF.title" = "商城";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "eQl-Ro-szh"; */
+"eQl-Ro-szh.title" = "首页";
+
+/* Class = "UITabBarItem"; title = "我"; ObjectID = "fLU-Ch-iTR"; */
+"fLU-Ch-iTR.title" = "我";
