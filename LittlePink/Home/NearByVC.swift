@@ -11,7 +11,7 @@ import XLPagerTabStrip
 
 class NearByVC: UIViewController, IndicatorInfoProvider {
     func indicatorInfo(for pagerTabStripController: XLPagerTabStrip.PagerTabStripViewController) -> XLPagerTabStrip.IndicatorInfo {
-         IndicatorInfo(title: "附近")
+         IndicatorInfo(title: NSLocalizedString("NearBy", comment: "首页上方的附近标签"))
     }
     
 

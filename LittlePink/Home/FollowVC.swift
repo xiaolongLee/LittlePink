@@ -10,7 +10,7 @@ import XLPagerTabStrip
 
 class FollowVC : UIViewController, IndicatorInfoProvider {
     func indicatorInfo(for pagerTabStripController: XLPagerTabStrip.PagerTabStripViewController) -> XLPagerTabStrip.IndicatorInfo {
-         IndicatorInfo(title: "关注")
+         IndicatorInfo(title: "Follow", comment: "首页上方的关注标签"))
     }
     
     

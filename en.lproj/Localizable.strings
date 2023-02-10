@@ -1,7 +1,8 @@
-/* 
-  Localizable.strings
-  LittlePink
+/* 首页上方的发现标签 */
+"Discovery" = "发现";
 
-  Created by ld on 2023/2/9.
-  
-*/
+/* 首页上方的关注标签 */
+"Follow" = "关注";
+
+/* 首页上方的附近标签 */
+"NearBy" = "附近";

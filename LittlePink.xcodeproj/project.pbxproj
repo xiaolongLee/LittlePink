@@ -40,16 +40,14 @@
 		6B5FE2EC298B570C00EC7A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B5FE2EF298B570C00EC7A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B5FE2F1298B570C00EC7A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B8BA7452994F975007A7415 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
-		6B8BA7462994F976007A7415 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		6B8BA7472994F9DD007A7415 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
-		6B8BA7482994F9DD007A7415 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6B6BB2142995E04B00008430 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		6B6BB2152995E04B00008430 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6B6BB2162995E04B00008430 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6B6BB2172995E04C00008430 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6B6BB2192995E11800008430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		6B6BB21B2995E11F00008430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		6B8BA74E2994FA37007A7415 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6B8BA7512994FA5C007A7415 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		6B8BA7522994FA5E007A7415 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B8BA7542994FA69007A7415 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6B8BA7562994FA74007A7415 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		6B8BA7572994FA76007A7415 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6B8CAFF82992683000C8B10B /* WaterFallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallVC.swift; sourceTree = "<group>"; };
 		6B8CAFFA2992689C00C8B10B /* WaterFallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallCell.swift; sourceTree = "<group>"; };
 		9658B05C21EE7DA294BD85CD /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,12 +100,11 @@
 		6B5FE2DF298B570900EC7A3A /* LittlePink */ = {
 			isa = PBXGroup;
 			children = (
-				6B8CAFF82992683000C8B10B /* WaterFallVC.swift */,
-				6B8CAFFA2992689C00C8B10B /* WaterFallCell.swift */,
+				6B6BB2132995DFF200008430 /* Common */,
+				6B6BB2122995DFD200008430 /* WaterFall */,
 				6B1990C82990A15F0089358E /* Home */,
 				6B5FE2E0298B570900EC7A3A /* AppDelegate.swift */,
 				6B5FE2E2298B570900EC7A3A /* SceneDelegate.swift */,
-				6B1990D12990D6F60089358E /* Constants.swift */,
 				6B5FE2E6298B570900EC7A3A /* Main.storyboard */,
 				6B5FE2EC298B570C00EC7A3A /* Assets.xcassets */,
 				6B5FE2EE298B570C00EC7A3A /* LaunchScreen.storyboard */,
@@ -115,6 +112,23 @@
 				6B5FE2E9298B570900EC7A3A /* LittlePink.xcdatamodeld */,
 			);
 			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		6B6BB2122995DFD200008430 /* WaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				6B8CAFF82992683000C8B10B /* WaterFallVC.swift */,
+				6B8CAFFA2992689C00C8B10B /* WaterFallCell.swift */,
+			);
+			path = WaterFall;
+			sourceTree = "<group>";
+		};
+		6B6BB2132995DFF200008430 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6B1990D12990D6F60089358E /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		756C5F168F8393AAA566CE33 /* Frameworks */ = {
@@ -178,8 +192,7 @@
 			knownRegions = (
 				en,
 				Base,
-				"en-GB",
-				ja,
+				"zh-Hans",
 			);
 			mainGroup = 6B5FE2D4298B570900EC7A3A;
 			productRefGroup = 6B5FE2DE298B570900EC7A3A /* Products */;
@@ -273,8 +286,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6B5FE2E7298B570900EC7A3A /* Base */,
-				6B8BA7452994F975007A7415 /* en-GB */,
-				6B8BA7472994F9DD007A7415 /* ja */,
+				6B6BB2142995E04B00008430 /* zh-Hans */,
+				6B6BB2192995E11800008430 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -283,8 +296,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6B5FE2EF298B570C00EC7A3A /* Base */,
-				6B8BA7462994F976007A7415 /* en-GB */,
-				6B8BA7482994F9DD007A7415 /* ja */,
+				6B6BB2152995E04B00008430 /* zh-Hans */,
+				6B6BB21B2995E11F00008430 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -293,8 +306,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6B8BA74E2994FA37007A7415 /* en */,
-				6B8BA7512994FA5C007A7415 /* en-GB */,
-				6B8BA7522994FA5E007A7415 /* ja */,
+				6B6BB2162995E04B00008430 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -303,8 +315,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6B8BA7542994FA69007A7415 /* en */,
-				6B8BA7562994FA74007A7415 /* en-GB */,
-				6B8BA7572994FA76007A7415 /* ja */,
+				6B6BB2172995E04C00008430 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
